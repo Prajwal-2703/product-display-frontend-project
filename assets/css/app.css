@@ -1,0 +1,200 @@
+body {
+    background: #d8f3dc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blurb h2 {
+    color: #003049;
+   font-weight: 700;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #003049;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2;
+    margin-top: 25px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content span{
+    color: #20a758;
+    
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    font-weight: 400;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #2b2d42;
+}
+
+#mainNavbar .navbar-brand {
+    color: #003049;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#headingGroup span, p {
+    color: #20a758;
+}
+
+#headingGroup h2, h3{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #003049;
+
+}
+
+.navbar.scrolled {
+    background: rgba(32, 167, 88, 0.8);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+.btn-success {
+    background: #20a758;
+    margin-right: 20px;
+}
+
+
+/* Product Comparison Tab*/
+.title {
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    color: #003049;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: linear-gradient(to left, transparent 5%, #11dd3bd);
+}
+
+.team-row {
+    padding: 40px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 20px 10px;
+    margin: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.member:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transform: translateY(-20px);
+}
+
+.member img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 4px solid #d8f3dc;
+}
+
+.member h2 {
+    text-transform: uppercase;
+    margin:10px 0;
+    font-size: 24px;
+    color: #003049;
+   font-weight: 700;
+}
+
+.member h4 {
+   font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.member p {
+    font-size: 13px;
+    color: #2f4a58;
+    line-height: 2;
+}
+
+/* Footer */
+footer {
+    background: #20a758;
+}
+
+footer a {
+    color: #95d5b2;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #1b4332;
+}
+
+.copyright {
+    color: white;
+}
+
+footer li {
+    color:#003049;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+footer p {
+    color:#003049;
+    font-size: 12px;
+}
+
+/* Video Tab */
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
